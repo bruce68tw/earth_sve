@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+
+		<!-- 這裡無法載入 base_sve 的 css, icomoon使用 fonts, 所以放這裡, 後面的日期可解決暫存問題 -->
+		<link rel="stylesheet" href="/bootstrap-5.3.0.min.css" />
+		<link rel="stylesheet" href="/_style.css?d=0725" />
+		<link rel="stylesheet" href="/icomoon.css?d=0725" />
+		<!--
+		<script src="/bootstrap-5.3.0.min.js"></script>
+		<script src="/popper-2.11.8.min.js"></script>
+		-->
+
+		%sveltekit.head%
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents;">%sveltekit.body%</div>
+	</body>
+</html>

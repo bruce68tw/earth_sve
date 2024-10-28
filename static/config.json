@@ -1,0 +1,7 @@
+{
+    "apName": "Earth 救助系統",
+    "rem_apiUrl": "http://127.0.0.1:93",
+    "apiUrl": "http://localhost:7138",
+    "md5Url": "https://en.toolpage.org/tool/md5",
+    "txUrl": "https://sepolia.etherscan.io/tx/"
+}
